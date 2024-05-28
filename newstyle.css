@@ -1,0 +1,437 @@
+@charset "utf-8";
+html {
+  scroll-behavior: smooth;
+}
+nav {
+    background-color: #101432;
+    height: 78px;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    opacity: 0.94;
+}
+
+
+h2 {
+    font-size: 26px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+ul li a:hover {
+    font-size: 18PX;
+}
+ul li a:visited {
+    color: #AEAEAE;
+}
+
+
+
+
+.left.box ul li {
+    display: inline;
+    margin-right: 50px;
+    color: #EFEFEF;
+    font-size: 16px;
+}
+
+ul li a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header  {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    background-image: url(IMG_3671.jpg);
+}
+.jowo.logo {
+    width: 218px;
+    height: 100%;
+    background-size: 196px 96px;
+    background-position: center center;
+    background-image: url(logo.png);
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+
+.left.box ul {
+    color: #FFFFFF;
+
+}
+
+
+.left.box {
+    color: #E2E2E2;
+}
+article {
+    width: 100%;
+    margin-top: 36px;
+    padding-bottom: 43px;
+    padding-top: 26px;
+}
+.picture {
+    background-color: #101432;
+    color: #FFFFFF;
+}
+
+
+.container1 {
+    width: 669px;
+    height: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+.container.leftbox {
+    width: 300px;
+    height: 291px;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+
+.container.rightbox {
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+    background-image: url(IMG_3725.JPG);
+    background-size: cover;
+    background-position: center 0%;
+    border-radius: 15px;
+    display: flex;
+}
+
+
+.container2 {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 382px;
+}
+.container2 .left2 {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 375px;
+    flex: 1;
+    margin-right: 5px;
+    display: flex;
+    -webkit-box-shadow: 0 0 #BCB9B9;
+    box-shadow: 0 0 #BCB9B9;
+}
+.container2 .left2 .left2picture {
+    width: 267px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    -webkit-box-shadow: inset 0px 0px 63px 146px #000000;
+    box-shadow: inset 0px 0px 63px 146px #000000;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in 5s;
+    -o-transition: all 0.5s ease-in 5s;
+    transition: all 0.5s ease-in 5s;
+    background-image: url(picture3.png);
+}
+
+
+.container2 .center2 {
+    width: 300px;
+    height: 375px;
+    background-color: #FFFFFF;
+    flex: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.container2 .center2 .center2picture {
+    width: 267px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: inset 0px 0px 63px 146px #000000;
+    box-shadow: inset 0px 0px 63px 146px #000000;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in 5s;
+    -o-transition: all 0.5s ease-in 5s;
+    transition: all 0.5s ease-in 5s;
+    background-image: url(picture4.png);
+}
+.container2 .center2 .origin {
+    background-size: 100% 101%;
+    width: 280px;
+    height: 62px;
+    background-position: center 0;
+}
+.container2 .left2 .jowo {
+    background-size: cover;
+    display: flex;
+    align-self: flex-end;
+    background-position: center 0%;
+}
+
+
+.container2 .right2 {
+    width: 300px;
+    height: 375px;
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    background-repeat: repeat-y;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container2 .right2 .right2picture {
+    width: 267px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: inset 0px 0px 63px 146px #000000;
+    box-shadow: inset 0px 0px 63px 146px #000000;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in 5s;
+    -o-transition: all 0.5s ease-in 5s;
+    transition: all 0.5s ease-in 5s;
+    background-image: url(picture5.png);
+}
+.container2 .other2 {
+    width: 300px;
+    height: 375px;
+    flex: 1;
+    display: flex;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+}
+.container2 .other2 .other2picture {
+    width: 267px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: inset 0px 0px 63px 146px #000000;
+    box-shadow: inset 0px 0px 63px 146px #000000;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in 5s;
+    -o-transition: all 0.5s ease-in 5s;
+    transition: all 0.5s ease-in 5s;
+    background-image: url(picture6.png);
+}
+
+.container3 {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 57px;
+}
+.container3 .left3 {
+    display: flex;
+    flex: 1;
+    background-color: #101432;
+    color: #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 0px;
+    background-size: cover;
+    text-align: justify;
+    min-width: 239px;
+    margin-right: 5px;
+}
+.container3 .center3 {
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    align-items: center;
+    background-image: url(url);
+    background-color: #101432;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    text-align: justify;
+    opacity: 1;
+    background-size: cover;
+}
+.container3 .right3 {
+    display: flex;
+    flex: 1;
+    background-color: #101432;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    text-align: justify;
+    background-size: cover;
+}
+.container3 .other3 {
+    display: flex;
+    flex: 1;
+    background-color: #101432;
+    color: #FFFFFF;
+    text-align: justify;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 20px;
+    background-size: cover;
+}
+.container4 {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container4 .left4 {
+    display: flex;
+    flex: 1;
+    background-color: #101432;
+    color: #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 0px;
+    background-size: cover;
+    text-align: justify;
+  
+    margin-right: 5px;
+    background-image: url(picture7.png);
+}
+.container4 .center4 {
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    align-items: center;
+    background-image: url(picture8.png);
+    background-color: #101432;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    text-align: justify;
+    opacity: 1;
+    background-size: cover;
+}
+.container4 .right4 {
+    display: flex;
+    flex: 1;
+    background-color: #101432;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    text-align: justify;
+    background-image: url(picture9.png);
+    background-size: cover;
+}
+.container4 .other4 {
+    display: flex;
+    flex: 1;
+    background-color: #101432;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    text-align: justify;
+    background-size: cover;
+    background-image: url(picture10.png);
+}
+.picture2 {
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+    background-color: #1E223E;
+    margin-left: 0px;
+    padding-bottom: 72px;
+}
+#A04 .text {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #101432;
+    color: #FAF7F7;
+    line-height: 48px;
+    text-align: left;
+    padding-left: 16px;
+}
+.container2 .left2 .left2picture:hover {
+    -webkit-box-shadow: inset 0px 0px 10px 2px #818181;
+    box-shadow: inset 0px 0px 10px 2px #818181;
+}
+.container2 .center2 .center2picture:hover {
+    -webkit-box-shadow: inset 0px 0px 10px 2px #818181;
+    box-shadow: inset 0px 0px 10px 2px #818181;
+}
+.container2 .right2 .right2picture:hover {
+    -webkit-box-shadow: inset 0px 0px 10px 2px #818181;
+    box-shadow: inset 0px 0px 10px 2px #818181;
+}
+.container2 .other2 .other2picture:hover {
+    -webkit-box-shadow: inset 0px 0px 10px 2px #818181;
+    box-shadow: inset 0px 0px 10px 2px #818181;
+}
